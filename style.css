@@ -43,7 +43,8 @@ a {
 }
 
 .container {
-    width: min(var(--mobile), var(--desktop));
+    max-width: var(--desktop);
+    width: min(90%, var(--mobile));
     margin: 0 auto;
 }
 /* MAIN */
