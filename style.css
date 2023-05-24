@@ -31,6 +31,7 @@ body {
     place-items: center;
 }
 img {
+    display: block;
     max-width: 100%;
 }
 p {
