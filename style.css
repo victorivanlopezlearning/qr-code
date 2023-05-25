@@ -10,7 +10,7 @@
     --regulrar: 400;
     --bold: 700;
     /* WIDTHS */
-    --width: 33rem;
+    --width: 32rem;
 }
 html {
     box-sizing: border-box;
@@ -26,11 +26,8 @@ body {
     font-size: 1.5rem;
     background-color: var(--light-gray);
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+    display: grid;
+    place-items: center;
 }
 img {
     display: block;
@@ -78,4 +75,6 @@ a {
     text-align: center;
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    bottom: 0;
 }
