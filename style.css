@@ -10,7 +10,7 @@
     --regulrar: 400;
     --bold: 700;
     /* WIDTHS */
-    --width: 30rem;
+    --width: 33rem;
 }
 html {
     box-sizing: border-box;
@@ -63,12 +63,12 @@ a {
     text-align: center;
 }
 .qr__title {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     font-weight: var(--bold);
     color: var(--dark-blue);
 }
 .qr__description {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: var(--grayish-blue);
 }
 
